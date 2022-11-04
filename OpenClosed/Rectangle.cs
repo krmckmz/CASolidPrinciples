@@ -1,4 +1,4 @@
-public class Rectangle : Shape, IShapeCalculator
+public class Rectangle : Shape 
 {
     public double Length { get; set; }
     public double Height { get; set; }
