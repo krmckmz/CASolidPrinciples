@@ -5,4 +5,5 @@ public class Address
     public string Country { get; set; }
     public string Street { get; set; }
     public string DoorId { get; set; }
+    public int ZipCode { get; set; }
 }
