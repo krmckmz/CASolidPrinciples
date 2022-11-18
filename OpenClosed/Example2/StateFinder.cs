@@ -5,7 +5,7 @@ public class StateFinder
         if (!verifier.IsValidZipCode(zipCode))
             throw new InvalidOperationException($"Invalid code : {zipCode}");
 
-        string city = (ZipCodes)zipCode;
+        string city = ((ZipCodes)zipCode).ToString();
 
         if (city is null)
             throw new InvalidOperationException($"No state found with : {zipCode}");
